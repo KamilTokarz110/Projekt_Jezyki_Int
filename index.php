@@ -18,7 +18,7 @@ $education = $db->select_multi('SELECT * FROM ITEMS WHERE TYPE = "WORK"');
 $about     = [];
 
 foreach ($aAbout as $val) {
-	$about['CODE'] = $val['VALUE'];
+	$about[$val['CODE']] = $val['VALUE'];
 }
 
 require 'page.php';

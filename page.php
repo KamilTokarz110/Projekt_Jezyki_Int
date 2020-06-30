@@ -19,36 +19,36 @@
             <div class="resume_content">
                 <div class="resume_item resume_info">
                     <div class="title">
-                        <p class="bold"><?php $about['name'];?></p>
-                        <p class="regular"><?php $about['natitleme'];?></p>
+                        <p class="bold"><?php echo $about['name'];?></p>
+                        <p class="regular"><?php echo $about['job'];?></p>
                     </div>
                     <ul>
                         <li>
                             <div class="icon"><i class="fas fa-map-signs"></i>
                             </div>
                             <div class="data">
-                                <?php $about['address'];?><br /> <?php $about['country'];?>
+                                <?php echo $about['address'];?><br /> <?php echo $about['country'];?>
                             </div>
                         </li>
                         <li>
                             <div class="icon"><i class="fas fa-mobile"></i>
                             </div>
                             <div class="data">
-                                <?php $about['phone'];?>
+                                <?php echo $about['phone'];?>
                             </div>
                         </li>
                         <li>
                             <div class="icon"><i class="fas fa-envelope"></i>
                             </div>
                             <div class="data">
-                                <?php $about['email'];?>
+                                <?php echo $about['email'];?>
                             </div>
                         </li>
                         <li>
                             <div class="icon"><i class="fab fa-weebly"></i>
                             </div>
                             <div class="data">
-                                <?php $about['www'];?>
+                                <?php echo $about['www'];?>
                             </div>
                         </li>
                     </ul>
@@ -137,7 +137,7 @@
                 <div class="title">
                     <p class="bold">O Mnie</p>
                 </div>
-                <p><?php echo $about['about'];?></p>
+                <p><?php echo $about['text'];?></p>
             </div>
             <div class="resume_item resume_work">
                 <div class="title">

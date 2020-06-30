@@ -26,8 +26,8 @@
 				<div class="head-nav">
 					<span class="menu"></span>
 						<ul>
-							<a href="/admin?page=items&type=educatioon" class="list-group-item ">Wykształcenie</a>
-							<a href="/admin?page=items&type=work" class="list-group-item ">Praca</a>
+							<a href="/admin?page=education" class="list-group-item ">Wykształcenie</a>
+							<a href="/admin?page=work" class="list-group-item ">Praca</a>
 							<a href="/admin?page=skills" class="list-group-item ">Umiejętności</a>
 							<a href="/admin" class="list-group-item ">O mnie</a>
 							<a href="/admin?page=logout" class="list-group-item ">Wyloguj</a>
